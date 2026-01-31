@@ -24,11 +24,11 @@ st.markdown(
 
 @st.cache_data
 def load_rfm_analysis():
-    return pd.read_csv('/Users/mohammedmahmood/Desktop/Data projects/Projects/Data science/Unsupervised proj/Retail Customer Segmentation Using RFM Analysis and/data/RFM_Analysis.csv')
+    return pd.read_csv('data/RFM_Analysis.csv')
 
 @st.cache_data
 def load_clean_transactions():
-    return pd.read_csv('/Users/mohammedmahmood/Desktop/Data projects/Projects/Data science/Unsupervised proj/Retail Customer Segmentation Using RFM Analysis and/data/clean_transactions.csv')
+    return pd.read_csv('data/clean_transactions.csv')
 
 rfm_df = load_rfm_analysis()
 clean_df = load_clean_transactions()
