@@ -24,8 +24,8 @@ st.markdown(
 # ==================================
 @st.cache_data
 def load_rfm_segments():
-    rfm_model = pd.read_csv('/Users/mohammedmahmood/Desktop/Data projects/Projects/Data science/Unsupervised proj/Retail Customer Segmentation Using RFM Analysis and/data/RFM_segments.csv')
-    groups_profile = pd.read_csv('/Users/mohammedmahmood/Desktop/Data projects/Projects/Data science/Unsupervised proj/Retail Customer Segmentation Using RFM Analysis and/data/Groups_profile.csv')
+    rfm_model = pd.read_csv('data/RFM_segments.csv')
+    groups_profile = pd.read_csv('data/Groups_profile.csv')
     return rfm_model, groups_profile
 
 rfm_model, groups_profile = load_rfm_segments()
