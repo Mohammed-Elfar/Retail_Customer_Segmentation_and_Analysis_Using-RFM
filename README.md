@@ -7,7 +7,7 @@ This project focuses on customer segmentation using RFM analysis and machine lea
 
 #### Interactive App: https://retail-customer-segmentation-and-analysis-using-rfm.streamlit.app/
 
-#### Interactive App: https://www.kaggle.com/code/mohammadelfar/retail-customer-segmentation-analysis-using-rfm
+#### Kaggle: https://www.kaggle.com/code/mohammadelfar/retail-customer-segmentation-analysis-using-rfm
 
 
 ## Workflow overview:
