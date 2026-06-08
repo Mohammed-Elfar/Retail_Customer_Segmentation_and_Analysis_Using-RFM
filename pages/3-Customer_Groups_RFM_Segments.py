@@ -87,7 +87,7 @@ COLOR_MAP = {cfg["display"]: cfg["color"] for cfg in SEGMENT_CONFIG.values()}
 
 @st.cache_data
 def load_data():
-    rfm = pd.read_csv('/Users/mohammedmahmood/Documents/Data projects/Projects/Data science/Unsupervised proj/Online Retail Customer Segmentation RFM Analysis/data/4_Final_segments.csv')
+    rfm = pd.read_csv('data/Processed/4_Final_segments.csv')
 
     # Build group-level profile directly from RFM data.
     # Groups_profile.csv does not contain cluster_name, so we derive the profile here.
