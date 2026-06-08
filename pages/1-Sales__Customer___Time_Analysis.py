@@ -18,8 +18,8 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    rfm_df   = pd.read_csv("/mnt/user-data/uploads/RFM_Analysis.csv")
-    clean_df = pd.read_csv("/mnt/user-data/uploads/clean_transactions.csv")
+    rfm_df   = pd.read_csv("data/Processed/3_RFM_for_analysis.csv")
+    clean_df = pd.read_csv("data/Processed/2_clean_transactions.csv")
     return rfm_df, clean_df
 
 
